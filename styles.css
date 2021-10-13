@@ -1,0 +1,17 @@
+.container-fluid{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 15%;
+ 
+}
+
+.display-4 {
+    margin-bottom: 15%;
+}
+
+.nxtbtn {
+    width: 100%;
+    margin-top: 55px;
+
+}

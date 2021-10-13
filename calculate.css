@@ -1,0 +1,29 @@
+.sgpa{
+    margin-top:     5%;
+}
+
+.block{
+    padding-left:15%;
+}
+
+li {
+    list-style: none;
+    
+    
+}
+
+.subjects{
+    text-align: center;
+    margin-left: -2%;
+
+}
+
+.btn{
+    margin-top: 3%;
+    
+}
+
+#text1,#text2,#text3,#text4,#text5,#text6,#text7,#text8,#text9{
+    margin-left: 2.5%;
+    margin-top: 10px;
+}
