@@ -1,17 +1,45 @@
+.nb {
+  padding: 5% 10%;
+}
+
 .container-fluid{
  display: flex;
  align-items: center;
  justify-content: center;
- margin-top: 15%;
- 
+ margin-top: 10%;
+
 }
+
 
 .display-4 {
     margin-bottom: 15%;
+    text-align: center;
 }
 
 .nxtbtn {
     width: 100%;
     margin-top: 55px;
+
+}
+
+.selection{
+  padding: 15px;
+  border: solid 2px grey;
+  border-radius: 5px;
+}
+
+.dropdowns {
+  float: center;
+}
+
+@media (max-width:720px) {
+
+  .selection{
+    width: 100%;
+    padding: 15px;
+    border: solid 2px grey;
+    border-radius: 5px;
+    margin-bottom: 7%;
+  }
 
 }
