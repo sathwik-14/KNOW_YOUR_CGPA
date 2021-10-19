@@ -1,3 +1,9 @@
+
+
+.nb {
+  padding: 5% 10%;
+}
+
 .sgpa{
     margin-top:     5%;
 }
@@ -8,8 +14,8 @@
 
 li {
     list-style: none;
-    
-    
+
+
 }
 
 .subjects{
@@ -20,7 +26,7 @@ li {
 
 .btn{
     margin-top: 3%;
-    
+
 }
 
 #text1,#text2,#text3,#text4,#text5,#text6,#text7,#text8,#text9{
