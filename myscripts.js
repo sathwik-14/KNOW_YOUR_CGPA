@@ -1063,5 +1063,4 @@ else if (((branch = "cs") || (branch = "ec") || (branch = "me") || (branch = "cv
 }
 else {
     console.log("working");
-    process.exit(1);
 }
