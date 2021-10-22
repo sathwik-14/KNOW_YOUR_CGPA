@@ -647,14 +647,14 @@ else if (((branch = "cs") || (branch = "ec") || (branch = "me") || (branch = "cv
 
         if ( sem == "1st Semester"){
         
-            document.getElementById("ct1").textContent="17**5";
-            document.getElementById("ct2").textContent="17**52";
-            document.getElementById("ct3").textContent="17**53";
-            document.getElementById("ct4").textContent="17**54";
-            document.getElementById("ct5").textContent="17**55";
-            document.getElementById("ct6").textContent="17**56";
-            document.getElementById("ct7").textContent="17**57";
-            document.getElementById("ct8").textContent="17**58";
+            document.getElementById("ct1").textContent="17**11";
+            document.getElementById("ct2").textContent="17**12";
+            document.getElementById("ct3").textContent="17**13";
+            document.getElementById("ct4").textContent="17**14";
+            document.getElementById("ct5").textContent="17**15";
+            document.getElementById("ct6").textContent="17**16";
+            document.getElementById("ct7").textContent="17**17";
+            document.getElementById("ct8").textContent="17**18";
             document.getElementById("s9").style.display="none";
             
         }
