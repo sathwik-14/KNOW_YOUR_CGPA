@@ -1,34 +1,25 @@
-html,body{
-  margin:0 !important;
-  padding:0 !important;
-  box-sizing: border-box !important;;
-}
-.navbar{
-  right: 0;
-  padding: 0 5%;
-  margin-right: 0;
+.nb {
+  padding: 5% 10%;
 }
 
-select, input[type="text"]{
-  width:80%;
-  box-sizing:border-box;
+.container-fluid{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 10%;
+
 }
 
-
-.col{
-margin-bottom: 5px;
-}
 
 .display-4 {
-    margin-bottom: 5%;
-    margin-top: 8%;
+    margin-bottom: 15%;
     text-align: center;
 }
 
 .nxtbtn {
-  
+    width: 100%;
     margin-top: 55px;
-    width: 50%;
+
 }
 
 .selection{
@@ -37,22 +28,21 @@ margin-bottom: 5px;
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-  
-  select, input[type="text"]{
-    width:80%;
-    box-sizing:border-box;
-  }
-  
-  .select-div{
-    margin-top: 15%;
-  }
-  
-  .col{
-    margin-bottom: 5%;
+.dropdowns {
+  float: center;
+}
+
+@media (max-width:720px) {
+
+  .selection{
+    width: 100%;
+    padding: 15px;
+    border: solid 2px grey;
+    border-radius: 5px;
+    margin-bottom: 7%;
   }
 
 }
-
-
-
+.copy{
+  font-size: 10px;
+}
