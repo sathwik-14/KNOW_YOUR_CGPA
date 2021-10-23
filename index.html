@@ -57,8 +57,8 @@
       <h1 class="display-4">SGPA CALCULATOR</h1>
       <div class="dropdowns">
 
-        <select onclick="selectbranch()" class="branch selection" id="branch">
-          <option class="dropdown-item" type="option" value="cs">Select Branch</option>
+        <select onchange="selectbranch()" class="branch selection" id="branch">
+          <option class="dropdown-item" type="option" value="invalid">Select Branch</option>
           <option class="dropdown-item" type="option" value="cs">Computer Science & Engineering</option>
           <option class="dropdown-item" type="option" value="ec">Electronics & Communications</option>
           <option class="dropdown-item" type="option" value="me">Mechanical Engineering</option>
@@ -66,8 +66,8 @@
         </select>
 
 
-        <select onclick="selectsem()" class="semesters selection" id="sem">
-          <option class="dropdown-item" type="option" value="cs">Select Semester</option>
+        <select onchange="selectsem()" class="semesters selection" id="sem">
+          <option class="dropdown-item" type="option" value="invalid">Select Semester</option>
           <option class="dropdown-item" value="1st Semester">1st Semester</option>
           <option class="dropdown-item" value="2nd Semester">2nd Semester</option>
           <option class="dropdown-item" value="3rd Semester">3rd Semester</option>
@@ -79,8 +79,8 @@
         </select>
 
 
-        <select onclick="selectscheme()" class="scheme selection" id="scheme">
-          <option class="dropdown-item" type="option" value="cs">Select Scheme</option>
+        <select onchange="selectscheme()" class="scheme selection" id="scheme">
+          <option class="dropdown-item" type="option" value="invalid">Select Scheme</option>
           <option class="dropdown-item" type="option" value="17">2017 Scheme</option>
           <option class="dropdown-item" type="option" value="18">2018 Scheme</option>
         </select>
