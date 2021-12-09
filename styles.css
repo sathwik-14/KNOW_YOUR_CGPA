@@ -42,7 +42,116 @@
     margin-bottom: 7%;
   }
 
+  .card{
+    margin-left: 3%;
+  }
+
 }
 .copy{
   font-size: 10px;
+}
+
+/* styles for HOME */
+
+.homemain {
+
+  margin-top: 0.5%;
+  padding: 2%;
+
+}
+
+.card1{
+  padding-bottom:10%;
+}
+
+.card3{
+  margin-top: 2%;
+  padding-bottom: 5%;
+}
+
+.card-text{
+  margin-top: 2%;
+}
+
+.card .btn{
+  margin-left: 3%;
+}
+
+@media (max-width:720px) {
+
+
+  .mg-top{
+    height: auto;
+  }
+
+  .bgimg{
+    height: 560px;
+  }
+  
+  
+  .card2{
+    margin-top: 2%;
+  }
+
+  .homemain {
+
+    margin-top: 0.2%;
+    padding: 1%;
+  
+  }
+  
+  .card1{
+    padding-bottom:5%;
+  } 
+  
+  .card3{
+    margin-top: 2%;
+    padding-bottom: 5%;
+  }
+}
+
+/* styles for cgpa */
+
+.block{
+  margin-top:2%;
+}
+
+
+/* Styles for index */
+
+.social a {
+	color: #333;
+  text-decoration-style: none;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+
+.social-container {
+	margin: 20px 0;
+}
+
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+}
+
+a{
+  text-decoration: none;
+}
+@media (max-width:750px){
+
+  .card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+  }
+
 }
