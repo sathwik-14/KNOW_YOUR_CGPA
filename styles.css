@@ -10,6 +10,11 @@
 
 }
 
+.navbar{
+  font-size: 0.9rem;
+}
+
+
 
 .display-4 {
     margin-bottom: 15%;
@@ -116,8 +121,16 @@
   margin-top:2%;
 }
 
+.sgpa-body{
+  background-image: url('');
+}
+
 
 /* Styles for index */
+
+.hero-copy{
+  margin-top: -3%;
+}
 
 .social a {
 	color: #333;
@@ -154,4 +167,19 @@ a{
     margin-top: 4%;
   }
 
+}
+
+.navbar{
+  min-height:12px;
+}
+.navbar  a {
+  font-size: 0.9rem;
+}
+
+.navbar-toggler-icon {
+  padding: 2px 1px !important;
+}
+.navbar-toggler-icon  {
+  width: 24px !important;
+  height: 2px;
 }
