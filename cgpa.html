@@ -1,71 +1,94 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html lang="en" class="no-js">
+<head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KNOWYOURCGPA</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="styles.css">
-    <title></title>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<script src="cgpa.js"></script>
-  </head>
-  <body>
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="cgpa.js"></script>
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+</head>
+<body class="text-light is-boxed has-animations">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark nb">
-      <a class="navbar-brand" href="#">KnowYourCgpa</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse " id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
+        <a class="navbar-brand" href="index.html">KnowYourCgpa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+    
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Calculate
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">CGPA</a>
+                <a class="dropdown-item" href="index.html">SGPA</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="body-wrap">
+       
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Calculate
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">CGPA</a>
-              <a class="dropdown-item" href="#">SGPA</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        
+            <section>
+                <div class="block text-center">
+                    <h4 class="sgpa">CGPA CALCULATOR</h4>
+                  <div class="text-center">
+              
+                    <div class="row">
+                      <p id="s1" class="col col-12"><span id="ct1">Semester 1</span> <input type="number" name="" id="text1"
+                           placeholder="Enter Obtained Marks"></p>
+                      <p id="s2" class="col col-12"><span id="ct2">Semester 2</span> <input type="number" name="" id="text2"
+                           placeholder="Enter Obtained Marks"></p>
+                      <p id="s3" class="col col-12"><span id="ct3">Semester 3</span> <input type="number" name="" id="text3"
+                           placeholder="Enter Obtained Marks"></p>
+                      <p id="s4" class="col col-12"><span id="ct4">Semester 4</span> <input type="number" name="" id="text4"
+                           placeholder="Enter Obtained Marks"></p>
+                      <p id="s5" class="col col-12"><span id="ct5">Semester 5</span> <input type="number" name="" id="text5"
+                           placeholder="Enter Obtained Marks"></p>
+                      <p id="s6" class="col col-12"><span id="ct6">Semester 6</span> <input type="number" name="" id="text6"
+                           placeholder="Enter Obtained Marks"></p>
+                      <p id="s7" class="col col-12"><span id="ct7">Semester 7</span> <input type="number" name="" id="text7"
+                           placeholder="Enter Obtained Marks"></p>
+                      <p id="s8" class="col col-12"><span id="ct8">Semester 8</span> <input type="number" name="" id="text8"
+                           placeholder="Enter Obtained Marks"></p>
+                    </div>
+                
+                    <div onclick="calccgpa()" class="btn btn-lg btn-dark">Calculate</div>
+                    <p class="display op">CGPA:&ensp;&ensp;&ensp;<output id="result"></output></p>
+                
+                    </div>
 
-    <div class="block text-center">
-      <h4 class="sgpa">CGPA CALCULATOR</h4>
-    <div class="text-center">
+            
+            </section>
+			
+        
 
-      <div class="row">
-        <p id="s1" class="col col-12"><span id="ct1">Semester 1</span> <input type="number" name="" id="text1"
-             placeholder="Enter Obtained Marks"></p>
-        <p id="s2" class="col col-12"><span id="ct2">Semester 2</span> <input type="number" name="" id="text2"
-             placeholder="Enter Obtained Marks"></p>
-        <p id="s3" class="col col-12"><span id="ct3">Semester 3</span> <input type="number" name="" id="text3"
-             placeholder="Enter Obtained Marks"></p>
-        <p id="s4" class="col col-12"><span id="ct4">Semester 4</span> <input type="number" name="" id="text4"
-             placeholder="Enter Obtained Marks"></p>
-        <p id="s5" class="col col-12"><span id="ct5">Semester 5</span> <input type="number" name="" id="text5"
-             placeholder="Enter Obtained Marks"></p>
-        <p id="s6" class="col col-12"><span id="ct6">Semester 6</span> <input type="number" name="" id="text6"
-             placeholder="Enter Obtained Marks"></p>
-        <p id="s7" class="col col-12"><span id="ct7">Semester 7</span> <input type="number" name="" id="text7"
-             placeholder="Enter Obtained Marks"></p>
-        <p id="s8" class="col col-12"><span id="ct8">Semester 8</span> <input type="number" name="" id="text8"
-             placeholder="Enter Obtained Marks"></p>
-      </div>
-  
-      <div onclick="calccgpa()" class="btn btn-lg btn-dark">Calculate</div>
-      <p class="display">CGPA:&ensp;&ensp;<output id="result"></output></p>
-  
-      </div>
-
-
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-  </body>
+        
+    </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="dist/js/main.min.js"></script>
+</body>
 </html>
