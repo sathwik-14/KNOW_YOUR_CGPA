@@ -183,3 +183,11 @@ a{
   width: 24px !important;
   height: 2px;
 }
+
+.row input{
+  border-radius: 10px;
+}
+
+.op{
+  margin-top: 1%;
+}
